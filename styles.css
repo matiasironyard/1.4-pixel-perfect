@@ -10,7 +10,7 @@ body{
 /* Header by Dan */
 .container{
   width: 1300px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 header{
@@ -67,13 +67,17 @@ nav a{
   position: relative;
   top: -9px;
   font-size: 17px;
+  font-family: 'Myriad pro', sans-serif;
+  font-weight: lighter;
+  font-stretch: condensed;
+  letter-spacing: -1px;
 
 }
 
 .main-nav{
   display: inline-block;
   position: relative;
-  right: 145px;
+  right: 165px;
   float: right;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -83,14 +87,30 @@ nav a{
 .main-nav-about {
   position: relative;
   right: 23px;
+  color: black;
 
 }
 
 .main-nav-search{
   position: relative;
-  right: 10px;
-
+  right: 9px;
+  color: black;
 }
+
+.fa-search{
+  position: relative;
+  font-size: 16px;
+
+  right: 5px;
+  top: -2px;
+  -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
 .company-name{
   vertical-align: middle;
   text-transform: uppercase;
@@ -99,17 +119,28 @@ nav a{
 h1{
 font-family: 'Oswald', sans-serif;
 }
+
+.header-title{
+  text-transform: uppercase;
+  font-size: 101px;
+  font-family: 'Myriad pro',sans-serif;
+  font-weight: lighter;
+  top: 86px;
+  color: #FFFFFF;
+
+
+}
 /* Dan's header ends here */
 
 .main{
   position: relative;
-  border: 5px  blue;
-  border-style: dashed;
+  ;
+
 }
 .content{
   display: inline-block;
-  width: 60%;
-  border: 5px solid black;
+
+
 }
 
 .author{
@@ -121,9 +152,9 @@ font-family: 'Oswald', sans-serif;
 
 .aside{
   display: inline-block;
-  width: 30%;
+  width: 276px;
   vertical-align: top;
-  border: 5px solid red;
+  
 }
 
 .ad a {
