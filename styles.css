@@ -5,6 +5,7 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Header by Dan */
 .container{
@@ -17,6 +18,11 @@ header{
   height: 523px;
   border: 5px solid red;
   background-image: url('http://unsplash.it/1300/523/');
+}
+
+.logo{
+  width: 45px;
+  height: 45px;
 }
 
 header:before{
@@ -37,19 +43,26 @@ header h1, header h3{
 nav{
   padding-top: 10px;
   position: relative;
+  text-decoration: none;
 }
 
 nav ul{
   display: inline-block;
-  list-style: none;
 }
+
 
 nav li{
   display: inline-block;
 }
 
+nav a{
+  text-decoration: none;
+}
+
 .brand{
+  display: inline-block;
   padding-left: 200px;
+
 }
 
 .company-name{
@@ -58,7 +71,7 @@ nav li{
 }
 
 h1{
-  font-family: 'OpenSans';
+font-family: 'Oswald', sans-serif;
 }
 /* Dan's header ends here */
 
