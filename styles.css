@@ -134,17 +134,65 @@ font-family: 'Oswald', sans-serif;
 
 .main{
   position: relative;
-  ;
+  width: 1300px;
+
 
 }
 .content{
   display: inline-block;
-
-
+  width: 695px;
+  margin: 45px 85px 40px 165px;
 }
 
+.content-title{
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 16px 0;
+  line-height: 120%;
+}
 .author{
+  display: inline;
+  position: relative;
+  left: -40px;
+  top: -10px;
+ font-size: 12px;
+ font-weight: bolder;
+}
+
+.content-author-name{
+  position: relative;
+  top: 2px;
+  left: 5px;
+  color: #5C91A9;
+}
+
+.on-after-content-author{
+  position: relative;
+  top: 3px;
+  left: 20px;
+  color: #BDB8A8;
+}
+
+.content-date {
+  position: relative;
+  top: 3px;
+  left: 21px;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #BDB8A8;
+}
+
+
+.content-author-pic{
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+.author-caption *{
   display: inline-block;
+
+
 }
 .content-buttons *{
   text-decoration: none;
@@ -152,9 +200,12 @@ font-family: 'Oswald', sans-serif;
 
 .aside{
   display: inline-block;
-  width: 276px;
+  width: 280px;
   vertical-align: top;
-  
+  position: relative;
+  right: 88px;
+  top: 45px;
+
 }
 
 .ad a {
