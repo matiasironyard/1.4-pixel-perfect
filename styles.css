@@ -198,6 +198,35 @@ font-family: 'Oswald', sans-serif;
   text-decoration: none;
 }
 
+p {
+  padding-right: 90px;
+  line-height: 2;
+  position: relative;
+  top: 2px;
+}
+
+.content-body-quote{
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 20px;
+  margin: 4px 3px;
+  height: 60px;
+  position: relative;
+  bottom: 11px;
+  color: #377698;
+  letter-spacing: -1px;
+}
+.content-body-quote:before{
+  content:"";
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #E9DECD;
+  position: absolute;
+  left: 2px;
+  top: 8px;
+}
+
 .aside{
   display: inline-block;
   width: 280px;
