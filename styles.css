@@ -173,21 +173,20 @@ font-family: 'Oswald', sans-serif;
   margin: 16px 0;
   position:  relative;
   left: -2px;
-  bottom: 49px;
-
+  bottom: 46px;
   letter-spacing: .011em;
   font-weight: lighter;
 }
 
 .content-body{
   position: relative;
-  top: -50px;
+  top: -45px;
 }
 .author{
   display: inline;
   position: relative;
   left: -40px;
-  bottom: 68px;
+  bottom: 65px;
  font-size: 12px;
  font-weight: bolder;
 }
@@ -233,11 +232,19 @@ font-family: 'Oswald', sans-serif;
   text-decoration: none;
 }
 
-p {
-  padding-right: 90px;
-  line-height: 1.6;
-  position: relative;
-}
+
+.content-body-text1{
+   padding-right: 90px;
+   line-height: 1.6;
+   position: relative;
+ }
+
+ .content-body-text2{
+    padding-right: 90px;
+    line-height: 1.6;
+    position: relative;
+  }
+
 .chick-mixtape {
   font-weight: bold;
   color: #A6B5C1;
@@ -267,8 +274,7 @@ p {
 
 .content-buttons{
   position: relative;
-  top: -42px;
-  left: -1px;
+  top: -35px;
 }
 
 
@@ -293,6 +299,8 @@ p {
   background-color: #99AAB7;
   width: 158px;
   text-align: right;
+  position: relative;
+  left: 1px;
 }
 .read-comments:hover {
   display: inline-block;
@@ -339,7 +347,7 @@ p {
   background-color: #99AAB7;
   width: 154px;
   position: relative;
-  left: -50px;
+  left: -56px;
   text-align: right;
 }
 
@@ -363,17 +371,23 @@ p {
   width: 30px;
   text-align: center;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 5px;
 }
+
+
 
 .fa-share-square-o{
   position: relatieve;
   right: 205px;
+  top: 1px;
+  right: 2px;
 }
 .fa-cloud-upload {
   position: relative;
   right: 155px;
+  top: 1px;
+  right:1px;
 }
 .fa-comment{
   position: relative;
