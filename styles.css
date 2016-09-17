@@ -267,18 +267,112 @@ p {
 
 .content-buttons{
   position: relative;
-  top: -40px;
+  top: -42px;
+  left: -1px;
 }
+
+
 .content-buttons * {
   display: inline-block;
   position: relative;
   height: 30px;
   padding: 1px;
+  vertical-align: middle;
 }
 
+.content-buttons * a{
+  color: white;
+  font-size: 13px;
+  padding-right: 12px;
+  padding-top: 5px;
+}
+
+
 .read-comments{
+  display: inline-block;
+  background-color: #99AAB7;
   width: 158px;
-  margin: 0 0 0 33px;
+  text-align: right;
+}
+.read-comments:hover {
+  display: inline-block;
+  background-color: #1062AA;
+}
+
+.read-comments:before{
+  content: "";
+  width: 33px;
+  height: 30px;
+  background-color: #535D64;
+  position: absolute;
+  left: 0;
+}
+
+.read-later{
+  display: inline-block;
+  background-color: #99AAB7;
+  width: 128px;
+  position: relative;
+  left: -25px;
+  text-align: right;
+}
+
+.read-later:hover {
+  display: inline-block;
+  background-color: #1062AA;
+}
+
+.read-later:before{
+  content: "";
+  width: 33px;
+  height: 30px;
+  background-color: #535D64;
+  position: absolute;
+  left: 0;
+}
+.share-post{
+  display: inline-block;
+  background-color: #99AAB7;
+  width: 154px;
+  position: relative;
+  left: -50px;
+  text-align: right;
+}
+
+.share-post:hover {
+  display: inline-block;
+  background-color: #1062AA;
+}
+
+.share-post:before{
+  content: "";
+  width: 33px;
+  height: 30px;
+  background-color: #535D64;
+  position: absolute;
+  left: 0;
+}
+
+.fa-share-square-o, .fa-cloud-upload, .fa-comment{
+  color: white;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.fa-share-square-o{
+  position: relatieve;
+  right: 205px;
+}
+.fa-cloud-upload {
+  position: relative;
+  right: 155px;
+}
+.fa-comment{
+  position: relative;
+  right: 160px;
 }
 
 .aside{
