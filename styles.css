@@ -302,10 +302,11 @@ p {
 .read-comments:before{
   content: "";
   width: 33px;
-  height: 30px;
+  height: 29px;
   background-color: #535D64;
   position: absolute;
   left: 0;
+
 }
 
 .read-later{
@@ -315,6 +316,7 @@ p {
   position: relative;
   left: -25px;
   text-align: right;
+  top: 1px;
 }
 
 .read-later:hover {
@@ -329,6 +331,8 @@ p {
   background-color: #535D64;
   position: absolute;
   left: 0;
+  top: -1px;
+
 }
 .share-post{
   display: inline-block;
@@ -351,6 +355,7 @@ p {
   background-color: #535D64;
   position: absolute;
   left: 0;
+  top: -1px;
 }
 
 .fa-share-square-o, .fa-cloud-upload, .fa-comment{
@@ -375,6 +380,8 @@ p {
   right: 160px;
 }
 
+/*ASIDE HERE*/
+
 .aside{
   display: inline-block;
   width: 280px;
@@ -386,10 +393,29 @@ p {
 }
 
 .ad a {
+  display: inherit;
   text-decoration: none;
+  text-align: right;
 }
 .author-box{
+
+}
+.author-pic-box{
+  width: 84px;
+  margin: 0 auto;
+}
+.aside-author-pic{
+  height: 84px;
+  width: 84px;
+  border-radius: 100%;
   display: inline-block;
+  margin: 0 auto;
+}
+.box-author-name{
+  text-transform: uppercase;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 .box-author-social{
   position: relative;
@@ -400,12 +426,30 @@ p {
   position: relative;
   left: -10px;
 }
+
+.sidebar-heading{
+  text-transform: uppercase;
+}
+
+.sidebar-text{
+  width: 278px;
+}
+.sidebar-text{
+  display: inline-block;
+  font-size: 13px;
+}
+
+.post-title{
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
 .posts{
   display: inline-block;
   clear: both;
   margin: 0 auto;
   width: 100%;
-  border: 3px solid yellow;
 }
 .post-items {
 
@@ -416,12 +460,33 @@ p {
   width: 24%;
 
 }
+
+.post-item-1{
+  position: relative;; /* for absolute children */
+  height: 330px;
+  background-image: url('https://unsplash.it/326/330');
+}
+.post-item-2{
+  position: relative;; /* for absolute children */
+  height: 330px;
+  background-image: url('https://unsplash.it/326/330');
+}
+.post-item-3{
+  position: relative;; /* for absolute children */
+  height: 330px;
+  background-image: url('https://unsplash.it/326/330');
+}
+.post-item-4{
+  position: relative;; /* for absolute children */
+  height: 330px;
+  background-image: url('https://unsplash.it/326/330');
+}
 .footer{
   display: inline-block;
   margin: 0 auto;
-  width: 100%;
-  height: 200px;
-  border: 3px green solid;
+  width: 1300px;
+  height: 95px;
+  background-color: #092E48;
 }
 
 .footer-elements{
