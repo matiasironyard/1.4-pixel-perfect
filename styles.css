@@ -158,19 +158,36 @@ font-family: 'Oswald', sans-serif;
   margin: 45px 85px 40px 165px;
 }
 
-.content-title{
+.content-title-1{
   text-transform: uppercase;
   font-size: 62px;
   margin: 16px 0;
-  line-height: 110%;
-  letter-spacing: .005em;
+ position: relative;
+ top: -11px;
+ left: -2px;
   font-weight: lighter;
+}
+.content-title-2{
+  text-transform: uppercase;
+  font-size: 62px;
+  margin: 16px 0;
+  position:  relative;
+  left: -2px;
+  bottom: 49px;
+
+  letter-spacing: .011em;
+  font-weight: lighter;
+}
+
+.content-body{
+  position: relative;
+  top: -50px;
 }
 .author{
   display: inline;
   position: relative;
   left: -40px;
-  top: -10px;
+  bottom: 68px;
  font-size: 12px;
  font-weight: bolder;
 }
@@ -178,21 +195,21 @@ font-family: 'Oswald', sans-serif;
 .content-author-name{
   position: relative;
   top: 2px;
-  left: 5px;
+  left: 8px;
   color: #5C91A9;
 }
 
 .on-after-content-author{
   position: relative;
-  top: 3px;
-  left: 20px;
+  top: 4px;
+  left: 23px;
   color: #BDB8A8;
 }
 
 .content-date {
   position: relative;
-  top: 3px;
-  left: 21px;
+  top: 4px;
+  left: 23px;
   font-size: 13px;
   text-decoration: underline;
   color: #BDB8A8;
@@ -200,10 +217,12 @@ font-family: 'Oswald', sans-serif;
 
 
 .content-author-pic{
-  height: 24px;
-  width: 24px;
+  height: 22px;
+  width: 22px;
   border-radius: 100%;
   vertical-align: middle;
+  position: relative;
+  left: 2px;
 }
 .author-caption *{
   display: inline-block;
@@ -216,31 +235,50 @@ font-family: 'Oswald', sans-serif;
 
 p {
   padding-right: 90px;
-  line-height: 2;
+  line-height: 1.6;
   position: relative;
-  top: 2px;
+}
+.chick-mixtape {
+  font-weight: bold;
+  color: #A6B5C1;
 }
 
 .content-body-quote{
   text-transform: uppercase;
   font-size: 28px;
-  padding: 20px;
-  margin: 4px 3px;
-  height: 60px;
+  height: 52px;
   position: relative;
-  bottom: 11px;
+  top: 9px;
+  left:20px;
   color: #377698;
-  letter-spacing: -1px;
+  letter-spacing: -.5px;
 }
 .content-body-quote:before{
   content:"";
   top: 0;
   bottom: 0;
   width: 2px;
+  height: 55px;
   background-color: #E9DECD;
   position: absolute;
-  left: 2px;
-  top: 8px;
+  left: -16px;
+  top: -13px;
+}
+
+.content-buttons{
+  position: relative;
+  top: -40px;
+}
+.content-buttons * {
+  display: inline-block;
+  position: relative;
+  height: 30px;
+  padding: 1px;
+}
+
+.read-comments{
+  width: 158px;
+  margin: 0 0 0 33px;
 }
 
 .aside{
