@@ -45,7 +45,7 @@ header h1{
   text-align: center;
 }
 
-nav{
+.main-nav{
 
   position: relative;
   text-decoration: none;
@@ -156,6 +156,7 @@ font-family: 'Oswald', sans-serif;
   display: inline-block;
   width: 695px;
   margin: 45px 85px 40px 165px;
+
 }
 
 .content-title-1{
@@ -228,10 +229,6 @@ font-family: 'Oswald', sans-serif;
 
 
 }
-.content-buttons *{
-  text-decoration: none;
-}
-
 
 .content-body-text1{
    padding-right: 90px;
@@ -259,6 +256,7 @@ font-family: 'Oswald', sans-serif;
   left:20px;
   color: #377698;
   letter-spacing: -.5px;
+  width: 500px;
 }
 .content-body-quote:before{
   content:"";
@@ -271,8 +269,98 @@ font-family: 'Oswald', sans-serif;
   left: -16px;
   top: -13px;
 }
-/*old content buttons
 
+
+.content-buttons{
+  display: inline-block;
+  position: relative;
+  top: -35px;
+  height: 30px;
+  }
+
+  .content-buttons * {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #AFAC9E;
+    color: white;
+    vertical-align: middle;
+    font-size: 13px;
+  }
+
+  .content-buttons * a{
+    background-color: transparent;
+    position: relative;
+    left: 10px;
+    top: 5px;
+  }
+
+
+
+  .content-buttons *.fa {
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    position: relative;
+    background: transparent;
+  }
+
+.read-comments-button .read-later-button .share-post-button{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.read-comments-button{
+  width: 158px;
+  height: 30px;
+}
+
+
+.content-buttons *:hover {
+
+  position: relative;
+  background-color: #1062AA;
+
+}
+
+
+.read-comment-icon-box{
+  height: 30px;
+  width: 33px;
+  background-color: #686359;
+  position: absolute;
+}
+
+.read-later-button{
+  width: 128px;
+  height: 30px;
+  position: relative;
+  left: 6px;
+}
+.read-later-icon-box{
+  height: 30px;
+  width: 33px;
+  background-color: #686359;
+  position: absolute;
+}
+
+.share-post-button{
+  width: 154px;
+  height: 30px;
+  position: relative;
+  left: 12px;
+}
+
+.share-post-icon-box{
+    height: 30px;
+    width: 33px;
+    background-color: #686359;
+    position: absolute;
+  }
+
+
+
+/*old content buttons
 .content-buttons{
   position: relative;
   top: -35px;
@@ -400,19 +488,19 @@ end of 0ld content buttons*/
   display: inline-block;
   width: 280px;
   vertical-align: top;
-  position: relative;
-  right: 88px;
-  top: 45px;
-
+  position: relative;;
+  right: 158px;
+  top: 84px;
+  float: right;
 }
 
 .ad a {
-  display: inherit;
+  display:inline-block;
   text-decoration: none;
   text-align: right;
 }
 .author-box{
-
+display: inline;
 }
 .author-pic-box{
   width: 84px;
@@ -430,27 +518,72 @@ end of 0ld content buttons*/
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+  top: 4px;
+  color: #176891;
 }
 .box-author-social{
   position: relative;
+  font-size: 13px;
+  bottom:  9px;
 }
-.social-item{
+.twitter, .facbook, .instagram{
   display: inline;
   list-style: none;
   position: relative;
-  left: -10px;
+  color: #AFAC9E;
+  font-weight: bold;
+}
+
+.twitter{
+
+  left: 3px;
+}
+
+.facbook{
+
+  left: 18px;
+}
+
+.instagram{
+  left: 35px;
+}
+
+.ad{
+  position: relative;
+  display: inline-block;
+  top: 31px;
+}
+
+.ad-image, .ad-link{
+  display: inline-block;
+}
+.ad-link{
+  float: right;
+  font-size: 13px;
+  color: #C7C0AF;
+  text-decoration: underline;
+}
+.sidebar{
+  display: inline-block;
+  position: relative;
+  top: 78px;
 }
 
 .sidebar-heading{
+  display: inline-block;
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
 
 .sidebar-text{
   width: 278px;
-}
-.sidebar-text{
   display: inline-block;
-  font-size: 13px;
+  position: relative;
+bottom: 12px;
+line-height: 1.8;
+  font-size: 14px;
 }
 
 .post-title{
@@ -464,36 +597,36 @@ end of 0ld content buttons*/
   clear: both;
   margin: 0 auto;
   width: 100%;
+  border-top: 1px solid #CBC6B4;
 }
-.post-items {
-
-}
-.post-items *{
-  display: inline-block;
-  margin: 0 auto;
-  width: 24%;
-
+.post-items{
+  border: 1px solid black;
+  display: -webkit-flex;
+  display: flex;
 }
 
-.post-item-1{
-  position: relative;; /* for absolute children */
-  height: 330px;
-  background-image: url('https://unsplash.it/326/330');
+
+.post-item-1 {
+  -webkit-flex: initial;
+          flex: initial;
+  width: 324px;
+  min-width: 100px;
 }
-.post-item-2{
-  position: relative;; /* for absolute children */
-  height: 330px;
-  background-image: url('https://unsplash.it/326/330');
+.post-item-2 {
+  -webkit-flex: none;
+          flex: none;
+  width: 324px;
 }
-.post-item-3{
-  position: relative;; /* for absolute children */
-  height: 330px;
-  background-image: url('https://unsplash.it/326/330');
+.post-item-3 {
+  -webkit-flex: none;
+          flex: none;
+  width: 324px;
 }
-.post-item-4{
-  position: relative;; /* for absolute children */
-  height: 330px;
-  background-image: url('https://unsplash.it/326/330');
+.post-item-4 {
+  -webkit-flex: none;
+          flex: none;
+  width: 324px;
+
 }
 .footer{
   display: inline-block;
