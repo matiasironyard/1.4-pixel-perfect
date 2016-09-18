@@ -274,7 +274,7 @@ font-family: 'Oswald', sans-serif;
 .content-buttons{
   display: inline-block;
   position: relative;
-  top: -35px;
+  top: -30px;
   height: 30px;
   }
 
@@ -588,58 +588,80 @@ line-height: 1.8;
 
 .post-title{
   font-size: 60px;
-  font-family: 'Open Sans', sans-serif;
+
   text-transform: uppercase;
   text-align: center;
+  font-size: 60px;
+  letter-spacing: .03em;
+  position: relative;
+  bottom: 16px;
 }
 .posts{
   display: inline-block;
   clear: both;
   margin: 0 auto;
   width: 100%;
+  position: relative;
+  bottom: 2px;
   border-top: 1px solid #CBC6B4;
+
+
 }
+
+
+
 .post-items{
-  border: 1px solid black;
   display: -webkit-flex;
   display: flex;
+  position: relative;
+  bottom: 23px;
+    z-index: 0;
+
 }
+
 
 
 .post-item-1 {
   -webkit-flex: initial;
-          flex: initial;
-  width: 324px;
+  flex: initial;
+  width: 325px;
   min-width: 100px;
 }
+
+
+
 .post-item-2 {
   -webkit-flex: none;
-          flex: none;
+  flex: none;
   width: 324px;
 }
 .post-item-3 {
   -webkit-flex: none;
-          flex: none;
+  flex: none;
   width: 324px;
 }
 .post-item-4 {
   -webkit-flex: none;
-          flex: none;
+  flex: none;
   width: 324px;
 
 }
+
+/*footer bellow*/
+
 .footer{
   display: inline-block;
   margin: 0 auto;
   width: 1300px;
   height: 95px;
   background-color: #092E48;
+  position: relative;
+  bottom: 30px;
 }
 
 .footer-elements{
   display: inline;
   position: relative;
-  top: 100px;
 }
 .ironyard-brand{
   display: inline-block;
@@ -650,16 +672,31 @@ line-height: 1.8;
   vertical-align: bottom;
 }
 .bottom-nav{
-  float: right;
+
   position: relative;
   margin: 0 auto;
-  float: right;
+
 
 
 }
-.nav-items{
-  display: inline-block;
-  float: right;
+.nav-items-1, .nav-items-2, .nav-items-3, .nav-items-4, .nav-items-5{
+  display: inline;
+  position: relative;
+  left: 820px;
+  top: 10px;
   text-decoration: none;
-  margin: 0 10px 0 0;
+  margin: 0 17px 0 0;
+  color: #99AAB7;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.nav-items-1, .nav-items-2, .nav-items-3{
+  border-right: 1px solid white;
+}
+
+.nav-items a{
+
+  text-decoration: none;
+
 }
