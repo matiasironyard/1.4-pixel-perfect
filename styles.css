@@ -512,6 +512,8 @@ display: inline;
   border-radius: 100%;
   display: inline-block;
   margin: 0 auto;
+  position: relative;
+  top: -1px;
 }
 .box-author-name{
   text-transform: uppercase;
@@ -660,25 +662,36 @@ line-height: 1.8;
 }
 
 .footer-elements{
-  display: inline;
-  position: relative;
+  display: inline-block;
+
 }
 .ironyard-brand{
   display: inline-block;
-  width: 50%;
+  position: relative;
+  left: 150px;
+  bottom: 12px;
+  font-size: 13px;
+  color: #99AAB7;
+  letter-spacing: .09px;;
 }
+
 .ironyard-brand *{
   display: inline-block;
   vertical-align: bottom;
 }
-.bottom-nav{
-
+.ironyard-icon{
+  height: 70px;
   position: relative;
-  margin: 0 auto;
-
-
-
+  top: 22px;
+  left: 3px;
 }
+.bottom-nav{
+  display: inline-block;
+  position: relative;
+bottom: 25px;
+  right: 376px;
+}
+
 .nav-items-1, .nav-items-2, .nav-items-3, .nav-items-4, .nav-items-5{
   display: inline;
   position: relative;
@@ -692,7 +705,11 @@ line-height: 1.8;
 }
 
 .nav-items-1, .nav-items-2, .nav-items-3{
-  border-right: 1px solid white;
+
+}
+
+.nav-items-1, .nav-items-2, .nav-items-3{
+  margin-right: 2px;
 }
 
 .nav-items a{
