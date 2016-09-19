@@ -4,7 +4,7 @@
 }
 
 body{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -144,6 +144,7 @@ font-family: 'Oswald', sans-serif;
   top: 86px;
   color: #FFFFFF;
   letter-spacing: -3px;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .header-subtitle{
@@ -315,7 +316,8 @@ font-family: 'Oswald', sans-serif;
     background-color: transparent;
     position: relative;
     left: 10px;
-    top: 5px;
+    top: 3px;
+    font-weight: bold;
   }
 
 
@@ -595,7 +597,7 @@ display: inline;
 .ad-image, .ad-link{
   display: inline-block;
 }
-.ad-link{
+.ad-link {
   float: right;
   font-size: 13px;
   color: #C7C0AF;
@@ -637,6 +639,7 @@ display: inline;
 bottom: 12px;
 line-height: 1.8;
   font-size: 14px;
+  color: #B4B0A1;
 }
 
 .post-title{
