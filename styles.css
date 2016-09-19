@@ -281,6 +281,74 @@ font-family: 'Oswald', sans-serif;
   padding-left: 17px;
 }
 
+.content-buttons{
+  position: relative;
+  height: 30px;
+  left: -29px;
+  top:-5px;
+}
+
+.content-buttons li{
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  padding-left: 9px;
+  padding-right: 4px;
+  list-style: none;
+  /*border-left: 35px solid transparent;*/
+  background-color: #176891;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.content-buttons li a {
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  left:-5px;
+}
+.content-buttons li a:hover {
+  color: white;
+}
+
+.content-buttons li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #AFAC9E;
+}
+
+
+
+.content-buttons li:hover:before{
+  display: none;
+}
+
+.content-buttons li .fa{
+  display: inline-block;
+  position: relative;
+  color: white;
+  background-color: #686359;
+  padding: 8px;
+  float: left;
+  height: 30px;
+  right: 20px;
+}
+.button2{
+  width: 118px;
+}
+
+.button3{
+  left: 1px;
+}
+
 /*this was not needed. added border above.
 .content-body-quote:before{
   content:"";
@@ -295,6 +363,7 @@ font-family: 'Oswald', sans-serif;
 }
 */
 
+/*old content button styling
 
 .content-buttons{
   display: inline-block;
@@ -342,14 +411,6 @@ font-family: 'Oswald', sans-serif;
 }
 
 
-.content-buttons *:hover {
-
-  position: relative;
-  background-color: #1062AA;
-
-}
-
-
 .read-comment-icon-box{
   height: 30px;
   width: 33px;
@@ -384,9 +445,9 @@ font-family: 'Oswald', sans-serif;
     position: absolute;
   }
 
+end of old content buttons*/
 
-
-/*old content buttons
+/*old content buttons2
 .content-buttons{
   position: relative;
   top: -35px;
@@ -603,21 +664,7 @@ display: inline;
   color: #C7C0AF;
   text-decoration: underline;
 }
-.ad-image img {
-  height: 300px;
-  width: 300px;
 
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.ad-image:hover {
-  width: 400px;
-  height: 400px;
-}
 .sidebar{
   display: inline-block;
   position: relative;
@@ -658,7 +705,7 @@ line-height: 1.8;
   margin: 0 auto;
   width: 100%;
   position: relative;
-  bottom: 20px;
+  bottom: 37px;
   border-top: 1px solid #CBC6B4;
 
 
@@ -671,7 +718,7 @@ line-height: 1.8;
   display: flex;
   position: relative;
   bottom: 25px;
-    z-index: 0;
+
 
 }
 
@@ -684,9 +731,18 @@ line-height: 1.8;
     left: 0;
     right: 0;
     background-color: rgba(19,	82,	136,	 0.6);
-    z-index: 0;
+
   }
-  .post-items a:hover{
+  .post-item-1:hover .item1-link{
+    color: white;
+  }
+  .post-item-2:hover .item2-link{
+    color: white;
+  }
+  .post-item-3:hover .item3-link{
+    color: white;
+  }
+  .post-item-4:hover .item4-link{
     color: white;
   }
   .post-item-1 {
@@ -705,6 +761,7 @@ line-height: 1.8;
   .post-item-1:hover img {
   	-webkit-filter: opacity(1);
   	filter: opacity(1);
+
   }
   .item1-link{
     text-decoration: none;
@@ -716,7 +773,7 @@ line-height: 1.8;
       text-transform: uppercase;
       font-family: 'Oswald', sans-serif;
       width: 250px;
-      line-height:
+
     }
 
 .post-item-2 {
@@ -811,10 +868,10 @@ line-height: 1.8;
   display: inline-block;
   margin: 0 auto;
   width: 1300px;
-  height: 95px;
+  height: 100px;
   background-color: #092E48;
   position: relative;
-  bottom: 50px;
+  bottom: 68px;
 }
 
 .footer-elements{
