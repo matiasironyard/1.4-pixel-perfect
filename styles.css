@@ -22,6 +22,7 @@ header{
   background-image: url('http://unsplash.it/1300/523/');
 }
 
+
 .logo{
   width: 45px;
   height: 45px;
@@ -44,6 +45,7 @@ header h1{
   position: relative;
   text-align: center;
 }
+
 
 .main-nav{
 
@@ -71,13 +73,13 @@ nav a{
   padding-left: 150px;
   position: relative;
   top: -9px;
-  font-size: 17px;
-  font-family: 'Myriad pro', sans-serif;
+  font-size: 16px;
+  font-family: 'Open Sans'
   font-weight: lighter;
-  font-stretch: condensed;
-  letter-spacing: -1px;
+  word-spacing: -1px;
 
 }
+
 
 .main-nav{
   display: inline-block;
@@ -147,9 +149,11 @@ font-family: 'Oswald', sans-serif;
 .header-subtitle{
   position: relative;
   top: 9px;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
+  word-spacing: 4px;
+  color: #083451;
 
 }
 /* Dan's header ends here */
@@ -231,6 +235,7 @@ font-family: 'Oswald', sans-serif;
   vertical-align: middle;
   position: relative;
   left: 2px;
+  bottom: 2px;
 }
 .author-caption *{
   display: inline-block;
@@ -240,14 +245,16 @@ font-family: 'Oswald', sans-serif;
 
 .content-body-text1{
    padding-right: 90px;
-   line-height: 1.6;
+   line-height: 26px;
    position: relative;
+   top: -3px;
  }
 
  .content-body-text2{
     padding-right: 90px;
-    line-height: 1.6;
+    line-height: 26px;
     position: relative;
+    top: -8px;
   }
 
 .chick-mixtape {
@@ -260,12 +267,20 @@ font-family: 'Oswald', sans-serif;
   font-size: 28px;
   height: 52px;
   position: relative;
-  top: 9px;
-  left:20px;
-  color: #377698;
+
+  left:4px;
+  color: #106DB3;
   letter-spacing: -.5px;
   width: 500px;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "open sans";
+  word-spacing: -2px;
+  border-left: 2px solid #ccc;
+  padding-left: 17px;
 }
+
+/*this was not needed. added border above.
 .content-body-quote:before{
   content:"";
   top: 0;
@@ -277,12 +292,13 @@ font-family: 'Oswald', sans-serif;
   left: -16px;
   top: -13px;
 }
+*/
 
 
 .content-buttons{
   display: inline-block;
   position: relative;
-  top: -30px;
+  bottom: 50px;
   height: 30px;
   }
 
@@ -522,6 +538,14 @@ display: inline;
   margin: 0 auto;
   position: relative;
   top: -1px;
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+     -ms-transition: all 1s ease;
+         transition: all 1s ease;
+}
+.aside-author-pic:hover{
+  -webkit-filter: blur(5px);
 }
 .box-author-name{
   text-transform: uppercase;
@@ -536,6 +560,9 @@ display: inline;
   position: relative;
   font-size: 13px;
   bottom:  9px;
+}
+.box-author-social a{
+  text-decoration: none;
 }
 .twitter, .facbook, .instagram{
   display: inline;
@@ -574,6 +601,21 @@ display: inline;
   color: #C7C0AF;
   text-decoration: underline;
 }
+.ad-image img {
+  height: 300px;
+  width: 300px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.ad-image:hover {
+  width: 400px;
+  height: 400px;
+}
 .sidebar{
   display: inline-block;
   position: relative;
@@ -585,6 +627,7 @@ display: inline;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
+  color: #106DB3;
 }
 
 .sidebar-text{
@@ -612,7 +655,7 @@ line-height: 1.8;
   margin: 0 auto;
   width: 100%;
   position: relative;
-  bottom: 2px;
+  bottom: 20px;
   border-top: 1px solid #CBC6B4;
 
 
@@ -624,7 +667,7 @@ line-height: 1.8;
   display: -webkit-flex;
   display: flex;
   position: relative;
-  bottom: 23px;
+  bottom: 25px;
     z-index: 0;
 
 }
@@ -637,8 +680,11 @@ line-height: 1.8;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 96, 172, 0.6);
+    background-color: rgba(19,	82,	136,	 0.6);
     z-index: 0;
+  }
+  .post-items a:hover{
+    color: white;
   }
   .post-item-1 {
     -webkit-flex: initial;
@@ -657,11 +703,24 @@ line-height: 1.8;
   	-webkit-filter: opacity(1);
   	filter: opacity(1);
   }
+  .item1-link{
+    text-decoration: none;
+    color: black;
+      font-size: 30px;
+      position: absolute;
+      top: 278px;
+      left: 14px;
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      width: 250px;
+      line-height:
+    }
 
 .post-item-2 {
   -webkit-flex: none;
   flex: none;
-  width: 324px;
+  width: 325px;
+  position: relative;
 }
 .post-item-2 img {
 	-webkit-filter: opacity(.4);
@@ -673,11 +732,23 @@ line-height: 1.8;
 	-webkit-filter: opacity(1);
 	filter: opacity(1);
 }
+.item2-link{
+  text-decoration: none;
+  color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 278px;
+    left: 15px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    width: 250px;
+  }
 
 .post-item-3 {
   -webkit-flex: none;
   flex: none;
-  width: 324px;
+  width: 325px;
+  position: relative;
 }
 .post-item-3 img {
 	-webkit-filter: opacity(.4);
@@ -689,10 +760,23 @@ line-height: 1.8;
 	-webkit-filter: opacity(1);
 	filter: opacity(1);
 }
+.item3-link{
+  text-decoration: none;
+  color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 245px;
+    left: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    width: 250px;
+    line-height: 1.2;
+  }
+
 .post-item-4 {
   -webkit-flex: none;
   flex: none;
-  width: 324px;
+  width: 325px;
   position: relative;
 
 }
@@ -707,17 +791,15 @@ line-height: 1.8;
 	-webkit-filter: opacity(1);
 	filter: opacity(1);
 }
-.post-item-4:after{
-    content: "oh cool a post!";
+.item4-link{
+    text-decoration: none;
+    color: black;
     font-size: 30px;
     position: absolute;
     top: 278px;
     left: 21px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-
-
-
   }
 
 /*footer bellow*/
@@ -729,7 +811,7 @@ line-height: 1.8;
   height: 95px;
   background-color: #092E48;
   position: relative;
-  bottom: 30px;
+  bottom: 50px;
 }
 
 .footer-elements{
@@ -755,6 +837,23 @@ line-height: 1.8;
   position: relative;
   top: 22px;
   left: 3px;
+
+}
+.ironyard-icon {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.ironyard-icon:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .bottom-nav{
   display: inline-block;
