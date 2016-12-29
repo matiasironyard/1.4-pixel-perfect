@@ -7,6 +7,8 @@ PIXEL PERFECT
 
 The task of this project was to create an html page simply from an image file turn it into a functioning website.
 
+[CODE](https://github.com/matiasironyard/1.4-pixel-perfect)
+
 [DEMO](https://matiasironyard.github.io/1.4-pixel-perfect/)
 
 ----------
